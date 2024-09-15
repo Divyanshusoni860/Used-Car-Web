@@ -13,6 +13,10 @@
     height: 60px;
 }
 
+.body{
+    background-color: ;
+}
+
 .name{
     flex-basis: 20%;
     margin-left: 20px;
@@ -54,3 +58,5 @@
     flex-basis: 20%;
     margin-right: 20px;
 }
+
+
