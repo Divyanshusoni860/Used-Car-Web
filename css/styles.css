@@ -6,39 +6,26 @@
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgb(0, 35, 121);
-    color: rgb(255, 95, 0);
     align-items: center;
     height: 60px;
 }
 
-.body{
-    background-color: ;
-}
-
 .name{
-    flex-basis: 20%;
-    margin-left: 20px;
+    color: rgb(255, 95, 0);
+    flex-basis: 0 0 20%;
 }
 
 .searchcont {
-    flex: 1;
     display: flex;
     justify-content: center;
     margin: 0px;
     padding: 0px;
-}
-
-.carsearch {
-    display: flex;
-    align-items: center; 
-    width: 100%;
+    flex: 0 0 60%;
 }
 
 .sb {
-    flex: 1;
-    padding: 5px;
     border: none;
     border-radius: 4px;
     font-size: 14px;
@@ -55,8 +42,10 @@
 }
 
 .credentials{
-    flex-basis: 20%;
-    margin-right: 20px;
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+
 }
 
 
