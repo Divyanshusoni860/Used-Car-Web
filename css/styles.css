@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(255 250 230);
+}
 
 .header{
     display: flex;
@@ -17,30 +20,58 @@
     flex-basis: 0 0 20%;
 }
 
-.searchcont {
+.searchcont{
+    flex: 1;
     display: flex;
     justify-content: center;
     flex: 0 0 60%;
-    gap: 0px;
+
 }
+
+.fa-search {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(255, 95, 0);
+}
+
+.carsearch {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+}
+
+
 
 .sb {
     border: none;
-    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
     font-size: 14px;
-}e
+    background-color: rgb(255 250 230);
+    height: 35px;
+    flex: 1;
+    outline: none;
+    width: 100%;
+    padding: 0 30px;
+
+}
  
 .searchbutton {
     background-color: rgb(255, 95, 0);
     color: rgb(255 250 230);
     border: none;
+    outline: none;
     height: 35px;
     width: 65px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     font-size: 14px;
     cursor: pointer;
-    transition: all 0.5s
+    transition: all 0.5s;
+    margin: 0;
 }
 
 .credentials{
