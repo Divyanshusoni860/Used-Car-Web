@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face{
+    font-family: retro;
+    src: url(../fonts/retro.otf);
+}
+
 body{
     background-color: rgb(255 250 230);
 }
@@ -18,6 +24,7 @@ body{
 .name{
     color: rgb(255, 95, 0);
     flex-basis: 0 0 20%;
+    font-family: retro;
 }
 
 .searchcont{
@@ -28,15 +35,12 @@ body{
 
 }
 
-
 .carsearch {
     display: flex;
     justify-content: center;
     width: 80%;
     position: relative;
 }
-
-
 
 .sb {
     border: none;
@@ -67,6 +71,12 @@ body{
     margin: 0;
 }
 
+.searchbutton:hover{
+    background-color:rgb(255 250 230);
+    color: rgb(255, 95, 0);
+    font-size: 13px;
+}
+
 .credentials{
     flex: 0 0 20%;
     display: flex;
@@ -90,6 +100,7 @@ body{
 .signup:hover{
     background-color:rgb(255 250 230);
     color: rgb(255, 95, 0);
+    font-size: 13px;
 }
 
 .login{
@@ -107,6 +118,7 @@ body{
     background-color:rgb(255, 95, 0);
     color: rgb(255 250 230);
     border: none;
+    font-size: 13px;
 }
 
 
