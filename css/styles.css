@@ -28,13 +28,6 @@ body{
 
 }
 
-.fa-search {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: rgb(255, 95, 0);
-}
 
 .carsearch {
     display: flex;
@@ -55,7 +48,7 @@ body{
     flex: 1;
     outline: none;
     width: 100%;
-    padding: 0 30px;
+    padding: 0 10px;
 
 }
  
