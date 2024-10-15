@@ -137,12 +137,71 @@ body{
     font-size: 17px;
 }
 
-.subheader{
+.subheader {
     height: 35px;
     background-color: rgb(255, 159, 102);
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 
+.navv{
+    flex: 0 0 80%;
+}
+
+.navv ul {
+    list-style: none;
+    display: flex;
+    gap: 0px;
+    justify-content:flex-start;
+    margin-inline-start: 30px;
+    height: 35px;
+    align-items: center;
+    
+}
+
+.navv nav{
+    height: 100%;
+    align-items: center;
+}
+
+.navv ul li {
+    cursor: pointer;
+    font-family: "billie";
+    color: rgb(0, 35, 121);
+    font-size: 21px;
+    height: 100%;
+    padding: 0 15px;
+    text-align: center;
+    transition: all 0.2s;
+   
+}
+
+.navv ul li:hover{
+    border-bottom: 3px solid rgb(0, 35, 121);
+}
+
+.loc{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.location {
+    background-color: transparent;
+    color: rgb(0, 35, 121);
+    border: none;
+    font-size: 21px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: "billie";
+    width: 65%;
+    height: 100%;
+   
+}
+.location:hover{
+    font-size: 20px;
+}
 
 
 
