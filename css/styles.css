@@ -25,13 +25,13 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(0, 35, 121);
+    background-color: rgb(255, 95, 0);
     align-items: center;
     height: 60px;
 }
 
 .name{
-    color: rgb(255, 95, 0);
+    color: rgb(0, 35, 121);
     flex-basis: 0 0 20%;
     font-family: "retro";
 }
@@ -64,12 +64,13 @@ body{
     width: 100%;
     padding: 0 10px;
     font-family: "bros-regular";
+    color: rgb(0, 35, 121);
     font-size: 18px;
 
 }
  
 .searchbutton {
-    background-color: rgb(255, 95, 0);
+    background-color: rgb(0, 35, 121);
     color: rgb(255 250 230);
     border: none;
     outline: none;
@@ -86,7 +87,7 @@ body{
 
 .searchbutton:hover{
     background-color:rgb(255 250 230);
-    color: rgb(255, 95, 0);
+    color: rgb(0, 35, 121);
     font-size: 17px;
 }
 
@@ -98,7 +99,7 @@ body{
 }
 
 .signup{
-    background-color: rgb(255, 95, 0);
+    background-color: rgb(0, 35, 121);
     color: rgb(255 250 230);
     border: none;
     height: 35px;
@@ -113,27 +114,33 @@ body{
 
 .signup:hover{
     background-color:rgb(255 250 230);
-    color: rgb(255, 95, 0);
+    color: rgb(0, 35, 121);
     font-size: 17px;
 }
 
 .login{
     background-color: rgb(255 250 230);
-    color: rgb(255, 95, 0);
+    color: rgb(0, 35, 121);
     height: 35px;
     width: 65px;
     border-radius: 4px;
     font-size: 18px;
     cursor: pointer;
-    border: 1px solid rgb(255, 95, 0);
+    border: 1px solid rgb(0, 35, 121);
     transition: all 0.5s;
     font-family: "billie";
 }
 .login:hover{
-    background-color:rgb(255, 95, 0);
+    background-color:rgb(0, 35, 121);
     color: rgb(255 250 230);
     border: none;
     font-size: 17px;
+}
+
+.subheader{
+    height: 35px;
+    background-color: rgb(255, 159, 102);
+    width: 100%;
 }
 
 
