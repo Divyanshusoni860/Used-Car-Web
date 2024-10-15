@@ -203,5 +203,14 @@ body{
     font-size: 20px;
 }
 
+.imagemain{
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagemain img{
+    height: auto;
+    width: 100%;
+}
 
 
