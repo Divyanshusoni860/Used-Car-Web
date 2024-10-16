@@ -181,6 +181,10 @@ body{
     border-bottom: 3px solid rgb(0, 35, 121);
 }
 
+.usedcarmenu{
+    display: flex;
+}
+
 .loc{
     justify-content: center;
     align-items: center;
