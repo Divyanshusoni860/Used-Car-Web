@@ -247,4 +247,57 @@ body{
     margin: 20px auto;
     height: 500px;
     border-radius: 8px;
+    flex-direction: column;
+}
+
+.hotselling div{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.hsctitle{
+    height: 15%;
+    font-family: billie;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.hscmenus{
+    height: 10%;
+}
+
+.hscmenus > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: bros-regular;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hsccontent{
+    height: 65%;
+}
+
+.hscshowall{
+    height: 10%;
+}
+.hscshowall>button{
+    background-color: rgb(0, 35, 121);
+    color: rgb(255 250 230);
+    border: none;
+    height: 45px;
+    width: 145px;
+    border-radius: 4px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: "billie";
+}
+
+.hscshowall>button:hover{
+    background-color:rgb(255 250 230);
+    color: rgb(0, 35, 121);
+    font-size: 23px;
+    text-decoration: underline;
 }
