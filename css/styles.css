@@ -149,7 +149,7 @@ body{
     flex: 0 0 80%;
 }
 
-.navv ul {
+.navv > nav > ul {
     list-style: none;
     display: flex;
     gap: 0px;
@@ -160,12 +160,7 @@ body{
     
 }
 
-.navv nav{
-    height: 100%;
-    align-items: center;
-}
-
-.navv ul li {
+.navv >nav> ul > li {
     cursor: pointer;
     font-family: "billie";
     color: rgb(0, 35, 121);
@@ -174,6 +169,7 @@ body{
     padding: 0 15px;
     text-align: center;
     transition: all 0.2s;
+    position: relative;
    
 }
 
@@ -181,8 +177,29 @@ body{
     border-bottom: 3px solid rgb(0, 35, 121);
 }
 
-.usedcarmenu{
-    display: flex;
+.navv > nav > ul > li >  ul{
+    display: none;
+}
+
+.navv > nav > ul > li:hover > ul {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: rgb(255, 159, 102,0.8);
+    top: 110%;
+    left: 0;
+    font-family: billie;
+    width: auto;
+    white-space: nowrap;
+    padding: 0 15px;
+    text-align: left;
+
+
+}
+
+.navv > nav > ul > li > ul> li:hover{
+    border: none;
+    list-style-type:disc;
 }
 
 .loc{
