@@ -10,5 +10,4 @@ Welcome to the Car Marketplace website project! This project aims to create a pl
 
 ## Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend (Optional):** Node.js, Python (Flask/Django), or PHP
-- **Database (Optional):** MySQL, MongoDB
+
